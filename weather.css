@@ -1,0 +1,128 @@
+*{
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+body{
+    background-color: #222;
+}
+.card{
+    width:90%;
+    max-width: 500px;
+    background-image: linear-gradient(to left bottom, #858e9b, #7891a6, #6495ad, #489ab1, #1a9fb0);
+    color:#fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0px;
+    outline:0px;
+    background-color: #ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius: 30px;
+    font-weight: bold;
+    flex:1;
+    margin-right:20px;
+    font-size: 25px;
+}
+.search button{
+    border:0px;
+    outline:0px;
+    background-color: #ebfffc;
+    cursor:pointer;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+}
+.search button img{
+    width: 30px;
+}
+div .weather-image{
+    width: 170px;
+    margin-top: 16px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather p.first{
+    margin-top:-6px;
+}
+.weather p.second{
+    margin-top:-20px;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details1
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.details2
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display:flex;
+    align-items: start;
+    text-align: left;
+}
+.col img{
+    width:50px;
+    margin-right: 10px;
+}
+.col.humid{
+    margin-left: 50px;
+}
+
+.humidity, .wind,.T_max,.T_min{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.weather-text{
+    margin-top: -10px;
+    font-size: 1.1em;
+}
+.weather{
+    display:none;
+}
+.error{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    display: none;
+}
+.switchcolor{
+  display:flex;
+}
+.switchcolor img{
+    border:0;
+    margin:0;
+    padding: 0 20px;
+    width:50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
