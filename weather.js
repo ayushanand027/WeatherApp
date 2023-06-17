@@ -34,42 +34,42 @@ async function checkweather(city)
 
      if(data.weather[0].main == 'Clouds')
      {
-        weathericon.src == 'clouds.png';
+        weathericon.src == 'images/clouds.png';
 
      }
      else if(data.weather[0].main == 'Clear')
      {
-        weathericon.src = 'clear.png';
+        weathericon.src = 'images/clear.png';
 
      }
      else if(data.weather[0].main == 'Drizzle')
      {
-        weathericon.src = 'drizzle.png';
+        weathericon.src = 'images/drizzle.png';
 
      }
      else if((data.weather[0].main) == 'Humidity')
      {
-        weathericon.src = 'humidity.png';
+        weathericon.src = 'images/humidity.png';
 
      }
      else if((data.weather[0].main) == 'Snow')
      {
-        weathericon.src = 'snow.png';
+        weathericon.src = 'images/snow.png';
 
      }
      else if((data.weather[0].main) == 'Rain')
      {
-        weathericon.src = 'rain.png';
+        weathericon.src = 'images/rain.png';
 
      }
      else if((data.weather[0].main) == 'Wind')
      {
-        weathericon.src = 'wind.png';
+        weathericon.src = 'images/wind.png';
 
      }
      else if((data.weather[0].main) == 'Mist')
      {
-        weathericon.src = 'mist.png';
+        weathericon.src = 'images/mist.png';
 
      }
      document.querySelector('.weather').style.display = 'block';
@@ -82,6 +82,10 @@ searchbutton.addEventListener('click',()=>
     checkweather(serchcity.value);
 
 });
+
+
+
+
 
 
 
